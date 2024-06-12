@@ -1,0 +1,49 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "description": "cypress test automation for Cimetrix",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ./cypress --max-warnings 0",
+    "lint:staged": "lint-staged",
+    "prettify": "prettier --write \"**/*.{js,cjs,ts,json,md,yml}\"",
+    "test:local": "cypress run",
+    "debug:local": "cypress open --e2e",
+    "test:ci": "cypress run --browser chrome --group --record --ci-build-id $BITBUCKET_BUILD_NUMBER --env ci=true",
+    "postinstall": "husky"
+  },
+  "lint-staged": {
+    "cypress/**/*.js": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/cimetrix/test-automation.git"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "Konrad Jazownik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/cimetrix/test-automation/issues"
+  },
+  "homepage": "https://bitbucket.org/cimetrix/test-automation#readme",
+  "dependencies": {
+    "@simonsmith/cypress-image-snapshot": "^9.0.3",
+    "cypress": "^13.7.1",
+    "cypress-if": "^1.12.0",
+    "cypress-map": "^1.37.0",
+    "cypress-real-events": "^1.12.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-mocha": "^10.4.1",
+    "prettier": "^3.2.5"
+  }
+}

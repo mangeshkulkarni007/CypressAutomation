@@ -1,0 +1,38 @@
+{
+  "aggregated": {
+    "manufacturingtime": 20100000,
+    "totalutilization": 20100000,
+    "standbytime": 0,
+    "nonscheduledtime": 120000,
+    "operationstime": 28680000,
+    "productivetime": 20000000,
+    "unknowntime": 259000,
+    "offline": 0,
+    "equipmentuptime": 20100000,
+    "totaltime": 28800000,
+    "knowntime": 28800000,
+    "online": 28680000,
+    "engineeringtime": 100000,
+    "equipmentdowntime": 8321000,
+    "scheduledtime": 5100000,
+    "unscheduledtime": 3221000
+  },
+  "percent": {
+    "manufacturingtime": 69.791666666,
+    "totalutilization": 69.791666666,
+    "standbytime": 0,
+    "nonscheduledtime": 0.4166666666666667,
+    "operationstime": 100,
+    "productivetime": 69.444444444,
+    "unknowntime": 0.899305555,
+    "offline": 0,
+    "equipmentuptime": 69.791666666,
+    "totaltime": 100,
+    "knowntime": 100,
+    "online": 69.791666666,
+    "engineeringtime": 0.347222222,
+    "equipmentdowntime": 28.892361111,
+    "scheduledtime": 17.708333333,
+    "unscheduledtime": 11.184027777
+  }
+}

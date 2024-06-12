@@ -1,0 +1,41 @@
+{
+  "equipmentUtilization": 69.8,
+  "uptime": {
+    "productive": {
+      "percent": 69.4,
+      "time": "5h 33m 20s"
+    },
+    "standby": {
+      "time": "0s"
+    },
+    "engineering": {
+      "percent": 0.3,
+      "time": "1m 40s"
+    },
+    "manufacturing": {
+      "percent": 69.8,
+      "time": "5h 35m 0s"
+    }
+  },
+  "downtime": {
+    "scheduled": {
+      "percent": 17.7,
+      "time": "1h 25m 0s"
+    },
+    "unscheduled": {
+      "percent": 11.2,
+      "time": "53m 41s"
+    }
+  },
+  "other": {
+    "nonScheduled": {
+      "percent": 0.4,
+      "time": "2m 0s"
+    },
+    "unknown": {
+      "percent": 0.9,
+      "time": "4m 19s"
+    }
+  },
+  "total": "8h 0m 0s"
+}

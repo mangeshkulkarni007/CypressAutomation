@@ -1,0 +1,35 @@
+{
+  "date": "2024-05-08",
+  "timeScaleLabels": {
+    "ci": ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00"],
+    "local": ["10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00"]
+  },
+  "productive": {
+    "percent": 25,
+    "time": "15m 0s"
+  },
+  "standby": {
+    "percent": 11.1,
+    "time": "6m 40s"
+  },
+  "engineering": {
+    "percent": 5.6,
+    "time": "3m 20s"
+  },
+  "scheduled": {
+    "percent": 13.9,
+    "time": "8m 20s"
+  },
+  "unscheduled": {
+    "percent": 16.7,
+    "time": "10m 0s"
+  },
+  "nonScheduled": {
+    "percent": 19.4,
+    "time": "11m 40s"
+  },
+  "unknown": {
+    "percent": 8.3,
+    "time": "5m 0s"
+  }
+}

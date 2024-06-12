@@ -1,0 +1,78 @@
+[
+  {
+    "state": "PRODUCTIVE TIME",
+    "equipmentId": "5700106e-0043-47b6-9384-b7c2bf1c3b33"
+  },
+  {
+    "state": "UNKNOWN TIME",
+    "equipmentId": "87d64f5a-b600-4f07-9650-ca6049a48d34"
+  },
+  {
+    "state": "PRODUCTIVE TIME",
+    "equipmentId": "f26fa56a-79da-489a-b24d-d88d4f3a375b"
+  },
+  {
+    "state": "UNSCHEDULED DOWNTIME",
+    "equipmentId": "086db9fe-dc87-4c9e-8ffd-1bfc9e4bf023"
+  },
+  {
+    "state": "PRODUCTIVE TIME",
+    "equipmentId": "e2bb7316-72d1-40ef-925c-eea1ec25fd5a"
+  },
+  {
+    "state": "UNSCHEDULED DOWNTIME",
+    "equipmentId": "e47077d2-16b4-4aee-81c8-7720370e8b34"
+  },
+  {
+    "state": "UNKNOWN TIME",
+    "equipmentId": "46854b97-5cd7-4058-806b-080cad195778"
+  },
+  {
+    "state": "UNKNOWN TIME",
+    "equipmentId": "b7656e49-ad99-48b9-8189-7ef307ba7961"
+  },
+  {
+    "state": "STANDBY TIME",
+    "equipmentId": "dae0c9b0-c1d5-4791-ba3a-1740689ab06b"
+  },
+  {
+    "state": "ENGINEERING TIME",
+    "equipmentId": "79b7bfdc-db7f-4953-91e2-9c9ed29f0f97"
+  },
+  {
+    "state": "SCHEDULED DOWNTIME",
+    "equipmentId": "53e1b40c-790d-43ce-9289-2ed5ca85506b"
+  },
+  {
+    "state": "UNSCHEDULED DOWNTIME",
+    "equipmentId": "d3431fd6-4716-45b1-85d4-5878543c8617"
+  },
+  {
+    "state": "NON-SCHEDULED TIME",
+    "equipmentId": "05b011c8-7348-48b1-9e21-25be85997023"
+  },
+  {
+    "state": "STANDBY TIME",
+    "equipmentId": "a0a1d003-2218-4580-b71d-77d475983d36"
+  },
+  {
+    "state": "UNKNOWN TIME",
+    "equipmentId": "44a7028b-5e0b-40c1-b7fd-88b1c3716444"
+  },
+  {
+    "state": "UNKNOWN TIME",
+    "equipmentId": "07f59ae4-1f44-4b8c-beb0-1303762b9a5b"
+  },
+  {
+    "state": "UNKNOWN TIME",
+    "equipmentId": "7f1f7dc8-0013-4411-824b-7e12c7808d91"
+  },
+  {
+    "state": "UNKNOWN TIME",
+    "equipmentId": "def16a68-91c6-4197-a645-53c8f2c22fff"
+  },
+  {
+    "state": "UNSCHEDULED DOWNTIME",
+    "equipmentId": "a8b79bc2-75b1-4ba2-932a-7afe4392ea2f"
+  }
+]

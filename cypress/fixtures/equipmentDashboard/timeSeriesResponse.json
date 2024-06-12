@@ -1,0 +1,110 @@
+[
+  {
+    "time": "2024-05-08T08:00:00Z",
+    "productivetime": 900000,
+    "totaltime": 3600000,
+    "percenttotalutilization": 0,
+    "engineeringtime": 200000,
+    "unknowntime": 300000,
+    "standbytime": 400000,
+    "scheduledtime": 500000,
+    "unscheduledtime": 600000,
+    "nonscheduledtime": 700000
+  },
+  {
+    "time": "2024-05-08T09:00:00Z",
+    "productivetime": 0,
+    "totaltime": 3600000,
+    "percenttotalutilization": 0,
+    "engineeringtime": 0,
+    "unknowntime": 0,
+    "standbytime": 0,
+    "scheduledtime": 0,
+    "unscheduledtime": 3600000,
+    "nonscheduledtime": 0
+  },
+  {
+    "time": "2024-05-08T10:00:00Z",
+    "productivetime": 0,
+    "totaltime": 3600000,
+    "percenttotalutilization": 0,
+    "engineeringtime": 0,
+    "unknowntime": 0,
+    "standbytime": 0,
+    "scheduledtime": 0,
+    "unscheduledtime": 3600000,
+    "nonscheduledtime": 0
+  },
+  {
+    "time": "2024-05-08T11:00:00Z",
+    "productivetime": 0,
+    "totaltime": 3600000,
+    "percenttotalutilization": 0,
+    "engineeringtime": 0,
+    "unknowntime": 0,
+    "standbytime": 0,
+    "scheduledtime": 0,
+    "unscheduledtime": 3600000,
+    "nonscheduledtime": 0
+  },
+  {
+    "time": "2024-05-08T12:00:00Z",
+    "productivetime": 0,
+    "totaltime": 3600000,
+    "percenttotalutilization": 0,
+    "engineeringtime": 0,
+    "unknowntime": 0,
+    "standbytime": 0,
+    "scheduledtime": 0,
+    "unscheduledtime": 3600000,
+    "nonscheduledtime": 0
+  },
+  {
+    "time": "2024-05-08T13:00:00Z",
+    "productivetime": 0,
+    "totaltime": 840000,
+    "percenttotalutilization": 0,
+    "engineeringtime": 0,
+    "unknowntime": 0,
+    "standbytime": 0,
+    "scheduledtime": 0,
+    "unscheduledtime": 840000,
+    "nonscheduledtime": 0
+  },
+  {
+    "time": "2024-05-08T14:00:00Z",
+    "productivetime": 0,
+    "totaltime": 0,
+    "percenttotalutilization": 0,
+    "engineeringtime": 0,
+    "unknowntime": 0,
+    "standbytime": 0,
+    "scheduledtime": 0,
+    "unscheduledtime": 0,
+    "nonscheduledtime": 0
+  },
+  {
+    "time": "2024-05-08T15:00:00Z",
+    "productivetime": 0,
+    "totaltime": 0,
+    "percenttotalutilization": 0,
+    "engineeringtime": 0,
+    "unknowntime": 0,
+    "standbytime": 0,
+    "scheduledtime": 0,
+    "unscheduledtime": 0,
+    "nonscheduledtime": 0
+  },
+  {
+    "time": "2024-05-08T16:00:00Z",
+    "productivetime": 0,
+    "totaltime": 0,
+    "percenttotalutilization": 0,
+    "engineeringtime": 0,
+    "unknowntime": 0,
+    "standbytime": 0,
+    "scheduledtime": 0,
+    "unscheduledtime": 0,
+    "nonscheduledtime": 0
+  }
+]

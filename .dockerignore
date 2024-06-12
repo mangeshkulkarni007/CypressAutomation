@@ -1,0 +1,10 @@
+node_modules
+.gitignore
+.prettierrc
+.git
+.husky
+*pipeline*
+eslint*
+README*
+Dockerfile
+**/.DS_Store

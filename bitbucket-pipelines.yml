@@ -1,0 +1,45 @@
+# This is an example Starter pipeline configuration
+# Use a skeleton to build, test and deploy using manual and parallel steps
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+definitions:
+  steps:
+    - step: &lint
+        name: Lint Cypress code
+        runs-on:
+          - "self.hosted"
+          - "linux.shell"
+          - "insight"
+        caches:
+          - node
+        script:
+          - yarn install --ignore-scripts # Install dependencies
+          - yarn run lint # Run ESLint
+          - yarn run prettier --check "**/*.{js,cjs,ts,json,md,yml}" # Run Prettier
+
+    - step: &run-cypress-tests
+        name: Run Cypress Tests
+        runs-on:
+          - "self.hosted"
+          - "linux.shell"
+          - "insight"
+        script:
+          - export COMMIT_INFO_MESSAGE="$(git show -s --format='%B')"
+          - export COMMIT_INFO_EMAIL="$(git show -s --format='%ce')"
+          - export COMMIT_INFO_AUTHOR="$(git show -s --format='%an')"
+          - export COMMIT_INFO_REMOTE=http://bitbucket.org/$BITBUCKET_REPO_FULL_NAME
+          - export DOCKER_HOST=""
+          - docker compose up --build --exit-code-from tests
+
+pipelines:
+  default:
+    - step: *lint
+
+  pull-requests:
+    "**":
+      - step: *lint
+      - step: *run-cypress-tests
+
+  custom:
+    regression-run:
+      - step: *run-cypress-tests
